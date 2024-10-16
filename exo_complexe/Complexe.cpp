@@ -3,18 +3,9 @@
 #include<cmath>
 using namespace std;
 
-//Constructeurs
-Complexe::Complexe()
-{
-	this->Re = 0;
-	this->Img = 0;
-}
 
-Complexe::Complexe(double Re, double Img)
-{
-	this->Re = Re;
-	this->Img = Img;
-}
+Complexe::Complexe(double Re, double Img):Re(Re),Img(Img)
+{}
 
 
 
